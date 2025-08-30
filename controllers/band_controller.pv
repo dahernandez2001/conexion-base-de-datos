@@ -1,0 +1,14 @@
+form flask import Blueprint
+
+band_bp =Blueprint("band_bp",_name_)
+
+@band_dp.router('/bands', methods=['GET'])
+
+
+@band_dp.router('/bands/<int:band_id>', methods=['GET'])
+
+@band_dp.router('/bands', methods=['POST'])
+
+@band_dp.router('/bands/<int:band_id>', methods=['PUT'])
+
+@band_dp.router('/bands/<int:band_id>', methods=['DELETE'])
